@@ -1,26 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import Background from './assets/img/drmakete-lab-hsg538WrP0Y-unsplash.jpg'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='w-full min-h-screen relative'>
+      <div className='w-full h-screen absolute top-0 left-0'>
+        <img className='w-full h-full object-fill' src={Background} />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
