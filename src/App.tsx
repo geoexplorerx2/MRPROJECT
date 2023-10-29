@@ -25,7 +25,7 @@ const App = () => {
               <div className='w-full'>
                 <div className='w-full flex justify-center'>
                   <div className='w-[300px] h-[300px] rounded-full bg-white'>
-                    {/* <img className='w-full h-full rounded-full' src={PersonalPhoto}/> */}
+                    <img className='w-full h-full rounded-full' src={PersonalPhoto}/>
                   </div>
                 </div>
                 <div className='w-full text-center'>
@@ -40,10 +40,11 @@ const App = () => {
                 <img className='w-[50%] m-1 rounded-lg' src={TelegramQrCode} />
               </div>
               <div className='w-full h-full'>
-                <ul className='w-full m-3 list-none'>
+                <ul className='w-full m-3 list-none translate-y-[100px]'>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'>+375-29-1603090</div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Email}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'>shcherdlovskaya@gmail.com</div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Web}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'><a href='https://marielt.by/' target="_blank" rel="noopener noreferrer">marielt.by</a></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Web}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'><a href='https://law.scherdlo@bsu.by' target="_blank" rel="noopener noreferrer">law.scherdlo@bsu.by</a></div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Location}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'><a href='https://www.google.com/maps/place/vulica+Ka%C4%BAvaryjskaja+42,+Minsk/data=!4m2!3m1!1s0x46dbc5590845e1b5:0xfb0743446aaa0270?sa=X&ved=2ahUKEwj95-v6rpSCAxWStqQKHT8EDUUQ8gF6BAgNEAA&ved=2ahUKEwj95-v6rpSCAxWStqQKHT8EDUUQ8gF6BAgPEAI' target="_blank" rel="noopener noreferrer">Address</a></div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={LinkedIn}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'><a href='https://www.linkedin.com/in/shcherdlovskaya/' target="_blank" rel="noopener noreferrer">LinkedIn</a></div></li>
                 </ul>
