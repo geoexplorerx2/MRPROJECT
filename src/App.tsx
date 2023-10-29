@@ -41,11 +41,11 @@ const App = () => {
               </div>
               <div className='w-full h-full'>
                 <ul className='w-full m-3 list-none'>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Email}/></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Web}/></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Location}/></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={LinkedIn}/></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div><div className='flex translate-y-[10px] items-center ml-3 text-lg text-white'>1234</div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Email}/></div><div className='flex translate-y-[10px] items-center ml-3 text-lg text-white'>1234</div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Web}/></div><div className='flex translate-y-[10px] items-center ml-3 text-lg text-white'>1234</div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Location}/></div><div className='flex translate-y-[10px] items-center ml-3 text-lg text-white'>1234</div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={LinkedIn}/></div><div className='flex translate-y-[10px] items-center ml-3 text-lg text-white'>1234</div></li>
                 </ul>
               </div>
             </div>
