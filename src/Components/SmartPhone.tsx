@@ -19,7 +19,7 @@ const SmartPhone = () => {
                 <div className='w-full'>
                     <div className='w-full flex justify-center'>
                         <div className='w-[199px] h-[200px] mt-10 rounded-full bg-white p-[1px]'>
-                            {/* <img className='w-full h-full object-cover rounded-full' src={PersonalPhoto} /> */}
+                            <img className='w-full h-full object-cover rounded-full' src={PersonalPhoto} />
                         </div>
                     </div>
                     <div className='w-full'>
@@ -43,6 +43,9 @@ const SmartPhone = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='absolute bottom-0 right-0 z-50 flex justify-end'>
+                <img className='w-[35%] m-1 rounded-md' src={TelegramQrCode} />
             </div>
         </div>
     )
