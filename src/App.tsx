@@ -40,7 +40,7 @@ const App = () => {
                 <img className='w-[50%] m-1 rounded-lg' src={TelegramQrCode} />
               </div>
               <div className='w-full h-full'>
-                <ul className='w-full m-3 list-none'>
+                <ul className='w-full m-3 list-none translate-y-[100px]'>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'>+375-29-1603090</div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Email}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'>shcherdlovskaya@gmail.com</div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Web}/></div><div className='flex translate-y-[10px] items-center ml-3 text-2xl text-white'><a href='https://marielt.by/' target="_blank" rel="noopener noreferrer">marielt.by</a></div></li>
