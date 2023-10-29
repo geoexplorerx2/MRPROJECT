@@ -2,6 +2,7 @@ import React from 'react'
 import Background from './assets/img/drmakete-lab-hsg538WrP0Y-unsplash.jpg'
 import CardBackground from './assets/img/ferdinand-stohr-NFs6dRTBgaM-unsplash.jpg'
 import PersonalPhoto from './assets/img/image card.jpeg'
+import TelegramQrCode from './assets/img/tgqr.jpeg'
 const App = () => {
   return (
     <div className='w-full min-h-screen relative'>
@@ -29,7 +30,19 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className='w-[50%] h-full'></div>
+            <div className='w-[50%] h-full relative'>
+              <div className='absolute bottom-0 right-0 flex justify-end'>
+                <img className='w-[50%] m-1 rounded-lg' src={TelegramQrCode} />
+              </div>
+              <div className='w-full h-full'>
+                <ul className='w-full m-3 list-none'>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4'></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4'></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4'></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4'></div></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
