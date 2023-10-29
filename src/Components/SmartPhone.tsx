@@ -19,8 +19,13 @@ const SmartPhone = () => {
                 <div className='w-full'>
                     <div className='w-full flex justify-center'>
                         <div className='w-[199px] h-[200px] mt-10 rounded-full bg-white p-[1px]'>
-                            <img className='w-full h-full object-cover rounded-full' src={PersonalPhoto}/>
+                            <img className='w-full h-full object-cover rounded-full' src={PersonalPhoto} />
                         </div>
+                    </div>
+                    <div className='w-full'>
+                        <div className='text-white text-3xl mt-10 w-full text-center'>MARINA</div>
+                        <div className='text-white text-3xl mt-3 w-full text-center'>SHCHERDLOVSKAYA</div>
+                        <div className='text-white text-xl mt-3 w-full text-center'>PROPERTY ADVISOR</div>
                     </div>
                 </div>
             </div>
