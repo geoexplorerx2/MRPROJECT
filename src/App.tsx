@@ -1,4 +1,5 @@
 import React from 'react'
+import Location from './assets/img/gps.png'
 import Background from './assets/img/drmakete-lab-hsg538WrP0Y-unsplash.jpg'
 import CardBackground from './assets/img/ferdinand-stohr-NFs6dRTBgaM-unsplash.jpg'
 import PersonalPhoto from './assets/img/image card.jpeg'
@@ -6,7 +7,7 @@ import TelegramQrCode from './assets/img/tgqr.jpeg'
 import TelePhone from './assets/img/phone-call.png'
 import Email from './assets/img/email.png'
 import Web from './assets/img/web.png'
-import Location from './assets/img/gps.png'
+import LinkedIn from './assets/img/linkedin.png'
 const App = () => {
   return (
     <div className='w-full min-h-screen relative'>
@@ -44,6 +45,7 @@ const App = () => {
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Email}/></div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Web}/></div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Location}/></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={LinkedIn}/></div></li>
                 </ul>
               </div>
             </div>
