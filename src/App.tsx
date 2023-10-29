@@ -5,7 +5,7 @@ const App = () => {
   const { width, height } = useWindowSize()
   return (
     <div className='w-full min-h-screen relative'>
-      <Desktop/>
+      {width >= 790 ? <Desktop /> : ''}
     </div>
   )
 }
