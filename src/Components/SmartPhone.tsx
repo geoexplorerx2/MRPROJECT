@@ -27,6 +27,9 @@ const SmartPhone = () => {
                         <div className='text-white text-3xl mt-3 w-full text-center'>SHCHERDLOVSKAYA</div>
                         <div className='text-white text-xl mt-3 w-full text-center'>PROPERTY ADVISOR</div>
                     </div>
+                    <div className='w-full'>
+
+                    </div>
                 </div>
             </div>
         </div>
