@@ -3,6 +3,7 @@ import Background from './assets/img/drmakete-lab-hsg538WrP0Y-unsplash.jpg'
 import CardBackground from './assets/img/ferdinand-stohr-NFs6dRTBgaM-unsplash.jpg'
 import PersonalPhoto from './assets/img/image card.jpeg'
 import TelegramQrCode from './assets/img/tgqr.jpeg'
+import TelePhone from './assets/img/phone-call.png'
 const App = () => {
   return (
     <div className='w-full min-h-screen relative'>
@@ -36,10 +37,10 @@ const App = () => {
               </div>
               <div className='w-full h-full'>
                 <ul className='w-full m-3 list-none'>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4'></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4'></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4'></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4'></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div></li>
                 </ul>
               </div>
             </div>
