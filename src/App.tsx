@@ -25,7 +25,7 @@ const App = () => {
               <div className='w-full'>
                 <div className='w-full flex justify-center'>
                   <div className='w-[300px] h-[300px] rounded-full bg-white'>
-                    {/* <img className='w-full h-full rounded-full' src={PersonalPhoto}/> */}
+                    <img className='w-full h-full rounded-full' src={PersonalPhoto}/>
                   </div>
                 </div>
                 <div className='w-full text-center'>
