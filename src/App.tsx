@@ -5,6 +5,8 @@ import PersonalPhoto from './assets/img/image card.jpeg'
 import TelegramQrCode from './assets/img/tgqr.jpeg'
 import TelePhone from './assets/img/phone-call.png'
 import Email from './assets/img/email.png'
+import Web from './assets/img/web.png'
+import Location from './assets/img/gps.png'
 const App = () => {
   return (
     <div className='w-full min-h-screen relative'>
@@ -40,8 +42,8 @@ const App = () => {
                 <ul className='w-full m-3 list-none'>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div></li>
                     <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Email}/></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div></li>
-                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={TelePhone}/></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Web}/></div></li>
+                    <li className='flex'><div className='w-[40px] h-[40px] rounded-full bg-white flex justify-center items-center mt-4 p-[1px]'><img className='w-full h-full' src={Location}/></div></li>
                 </ul>
               </div>
             </div>
