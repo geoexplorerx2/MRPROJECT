@@ -28,8 +28,8 @@ const SmartPhone = () => {
                         </div>
                     </div>
                     <div className='w-full'>
-                        <div className='text-white text-lg mt-10 w-full text-center'>FIRST NAME</div>
-                        <div className='text-white text-lg mt-2 w-full text-center'>LAST NAME</div>
+                        <div className='text-white text-lg mt-10 w-full text-center'>MARINA</div>
+                        <div className='text-white text-lg mt-2 w-full text-center'>SHCHERDLOVSKAYA</div>
                         <div className='text-white text-base mt-2 w-full text-center'>PROPERTY ADVISOR</div>
                         <div className='w-full flex justify-center'>
                             <div className='w-[90%] h-[2px] bg-[rgba(255,255,255,0.3)] mt-3'></div>
