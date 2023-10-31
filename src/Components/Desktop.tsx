@@ -24,7 +24,7 @@ const Desktop = () => {
                         <div className='w-[50%] h-full flex justify-center items-center'>
                             <div className='w-full'>
                                 <div className='w-full flex justify-center'>
-                                    <div className='w-[290px] h-[300px] rounded-full bg-white p-[1px]'>
+                                    <div className='w-[280px] h-[280px] rounded-full px-5'>
                                         <img className='w-full h-full rounded-full' src={PersonalPhoto} />
                                     </div>
                                 </div>
